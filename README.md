@@ -1,4 +1,4 @@
-# 22F_3722_Web_Assignment_2
+# Course-Registration
 
 ## Project Overview
 
@@ -12,6 +12,11 @@ This project is a web application for course registration and management. It all
 - Reports on course enrollment, available courses, and prerequisite issues
 - Middleware for authentication and authorization
 - Initial data seeding for admin and student accounts
+
+## Technologies Used
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB
+- **Testing:** Postman
 
 ## Project Structure
 
@@ -34,6 +39,8 @@ models/
     course.js
     registration.js
     user.js
+postman_testing/
+    22F_3722_Web_Assignment_2_testing.json
 public/
     index.html
     css/
@@ -56,14 +63,15 @@ views/
     auth/
         login.ejs
     student/
+
 ```
 
 ## Installation
 
 1. Clone the repository:
     ```sh
-    git clone <repository-url>
-    cd 22F_3722_Web_Assignment_2
+    git clone https://github.com/whis-19/Course-Registration.git
+    cd Course-Registration
     ```
 
 2. Install dependencies:
@@ -74,8 +82,7 @@ views/
 3. Create a `.env` file in the root directory and add the following environment variables:
     ```
     MONGO_URI=mongodb://127.0.0.1:27017
-    PORT=5000
-    JWT_SECRET=your_jwt_secret
+    PORT=3000
     ```
 
 4. Start the server:
@@ -120,6 +127,3 @@ views/
 
 - `POST /api/seed` - Seed initial data
 
-## License
-
-This project is licensed under the MIT License.
