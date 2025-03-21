@@ -14,9 +14,9 @@ This project is a web application for course registration and management. It all
 - Initial data seeding for admin and student accounts
 
 ## Technologies Used
-- *Backend:* Node.js, Express.js
-- *Database:* MongoDB
-- *Testing:* Postman
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB
+- **Testing:** Postman
 
 ## Project Structure
 
