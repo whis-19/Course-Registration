@@ -70,8 +70,8 @@ views/
 
 1. Clone the repository:
     ```sh
-    git clone <repository-url>
-    cd 22F_3722_Web_Assignment_2
+    git clone https://github.com/whis-19/Course-Registration-.git
+    cd Course-Registration
     ```
 
 2. Install dependencies:
