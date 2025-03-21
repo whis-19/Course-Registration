@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "67dd933c0a3ac1e2b792e3b5"
+  },
+  "courseCode": "SDA001",
+  "title": "Software Design and Algorithm",
+  "department": "SE",
+  "level": 2,
+  "description": "Software Requirement Engineering",
+  "creditHours": 3,
+  "totalSeats": 20,
+  "availableSeats": 20,
+  "schedule": [],
+  "prerequisites": [],
+  "subscribers": [],
+  "createdAt": {
+    "$date": "2025-03-21T16:26:36.934Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67dd9afef82fa106532c5bd3"
+  },
+  "courseCode": "DS001",
+  "title": "Data Science for SE",
+  "department": "SE",
+  "level": 2,
+  "description": "Data Science for Software Engineering",
+  "creditHours": 3,
+  "totalSeats": 20,
+  "availableSeats": 20,
+  "schedule": [],
+  "prerequisites": [],
+  "subscribers": [],
+  "createdAt": {
+    "$date": "2025-03-21T16:59:42.986Z"
+  },
+  "__v": 0
+}]

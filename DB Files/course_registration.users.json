@@ -1,0 +1,42 @@
+[{
+  "_id": {
+    "$oid": "67dd98bcf82fa106532c5bc4"
+  },
+  "rollNumber": "admin001",
+  "name": "Admin User",
+  "role": "admin",
+  "password": "$2b$10$4Ugjq0/jh2d8Lq.qzOaJD.vmj.h.ZV.0MZCdXro3i..qkZKJK9sSu",
+  "registeredCourses": [],
+  "createdAt": {
+    "$date": "2025-03-21T16:50:04.433Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67dd98bcf82fa106532c5bc7"
+  },
+  "rollNumber": "22F-0000",
+  "name": "Sample Student",
+  "role": "student",
+  "password": "$2b$10$8liwbOCvYRnbzQf1l80Az.fIdPjyhac0GUfMRExJJPRpsi/HBnBUu",
+  "registeredCourses": [],
+  "createdAt": {
+    "$date": "2025-03-21T16:50:04.676Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67ddb548b04cc77f1636bd96"
+  },
+  "rollNumber": "22F-3722",
+  "name": "Muhammad Abdullah",
+  "role": "student",
+  "password": "$2b$10$g8ip6Ubkp1Q8C53S/4vBf.lbaAj2WJZf5uOPydbbgpEKqX8WdgvXe",
+  "registeredCourses": [],
+  "createdAt": {
+    "$date": "2025-03-21T18:51:52.217Z"
+  },
+  "__v": 0
+}]
