@@ -1,4 +1,4 @@
-# 22F_3722_Web_Assignment_2
+# Course-Registration
 
 ## Project Overview
 
