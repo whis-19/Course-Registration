@@ -25,6 +25,16 @@ app.use((req, res, next) => {
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
+// Middleware to log response body
+app.use((req, res, next) => {
+    const originalSend = res.send;
+    res.send = function (body) {
+        console.log('Response:', JSON.stringify(body, null, 2));
+        originalSend.call(this, body);
+    };
+    next();
+});
+
 // Serve static files
 app.use(express.static(path.join(__dirname, 'public')));
 
