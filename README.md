@@ -70,7 +70,7 @@ views/
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/whis-19/Course-Registration-.git
+    git clone https://github.com/whis-19/Course-Registration.git
     cd Course-Registration
     ```
 
